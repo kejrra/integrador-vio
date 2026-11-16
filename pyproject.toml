@@ -1,0 +1,19 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "vio-api"
+version = "0.1.0"
+description = "Cliente Python sem dependências para a API VIO de leitura e validação de documentos."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "VIO API contributors" }]
+dependencies = []
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/vio_api"]
+
+[dependency-groups]
+dev = []

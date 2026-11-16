@@ -1,0 +1,6 @@
+VIO API - QR codes de homologação
+
+Envie qualquer uma destas imagens para POST /qrcode/read usando a sua chave de homologação
+(X-API-Key: vio_test_...). A resposta tem o mesmo formato da produção, sem cobrança.
+cenarios.json descreve o retorno esperado de cada arquivo.
+Documentação: https://vio.api.br/dashboard/api/

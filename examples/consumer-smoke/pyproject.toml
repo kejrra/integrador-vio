@@ -1,0 +1,12 @@
+[project]
+name = "vio-api-consumer-smoke"
+version = "0.1.0"
+description = "Projeto mínimo para validar o uso de vio-api por uma aplicação consumidora."
+requires-python = ">=3.10"
+dependencies = ["vio-api"]
+
+[tool.uv.sources]
+vio-api = { path = "../..", editable = true }
+
+[tool.uv]
+package = false
